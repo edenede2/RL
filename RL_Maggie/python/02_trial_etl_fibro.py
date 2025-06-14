@@ -3,9 +3,8 @@ from pathlib import Path
 from typing import List, Dict
 from importlib import import_module
 
-setup = import_module('00_setup')
-LOCAL_DATA_DIR = setup.LOCAL_DATA_DIR
-
+        # Check if the participant completed a 7th practice block
+            participants_with_7.append(sub_df['participant'].iloc[0])
 
 def get_trial_data_healthy_fibro(data_dir: Path = LOCAL_DATA_DIR) -> Dict[str, pd.DataFrame]:
     files = list(data_dir.glob('sub_*.csv'))
