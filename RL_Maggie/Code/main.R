@@ -1,20 +1,25 @@
 ## main.R ----------------------------------------------------------------
 ## Run the entire analysis pipeline in order
-source("./refined_r_code/00_setup.R")
+source("RL_Maggie/Code/00_setup.R")
 
 ## Optional – set to TRUE if you need fresh copies from the shared drive
 RUN_COPY <- FALSE
-if (RUN_COPY) source("./refined_r_code/01_copy_raw_files.R")
+if (RUN_COPY) source("RL_Maggie/Code/01_copy_raw_files.R")
 
 ## Trial-level -----------------------------------------------------------
-source("./refined_r_code/02_trial_etl_fibro.R")
-source("./refined_r_code/03_trial_etl_stress.R")
-source("./refined_r_code/04_trial_merge_clean.R")
-source("./refined_r_code/05_trial_analysis.R")          # produces plots and ANOVA output
+source("RL_Maggie/Code/02_trial_etl_fibro.R")
+source("RL_Maggie/Code/03_trial_etl_stress.R")
+source("RL_Maggie/Code/04_trial_merge_clean.R")
+source("RL_Maggie/Code/05_trial_analysis.R")          # produces plots and ANOVA output
 
 ## Estimation-level ------------------------------------------------------
-source("./refined_r_code/06_estimation_etl.R")
-source("./refined_r_code/07_estimation_analysis.R")      # plots & ANOVA
+source("RL_Maggie/Code/06_estimation_etl.R")
+source("RL_Maggie/Code/07_estimation_analysis.R")      # plots & ANOVA
 
 ## Questionnaire analysis (Fibro only) ----------------------------------
-source("./refined_r_code/08_questionnaire_analysis.R")
+tryCatch({
+  source("RL_Maggie/Code/08_questionnaire_analysis.R")
+}, error = function(e) {
+  message("Questionnaire analysis failed: ", e$message)
+  message("This is likely due to a missing file. Check that ", QUESTIONNAIRE_CSV, " exists.")
+})

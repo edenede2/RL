@@ -145,14 +145,27 @@ create_estimation_data <- function(data_dir = STRESS_DATA_DIR, long = TRUE) {
     
     df <- bind_rows(df, sub_df)
   }
-  
-  if (long) {
-    df <- df %>%
-      pivot_longer(
-        cols      = starts_with("choice"),
-        names_to  = "choice",
-        values_to = "prob_estimation"
-      )
+    if (long) {
+    # Check if there are any 'choice' columns before pivoting
+    choice_cols <- grep("^choice", names(df), value = TRUE)
+    if (length(choice_cols) > 0) {
+      df <- df %>%
+        pivot_longer(
+          cols      = all_of(choice_cols),
+          names_to  = "choice",
+          values_to = "prob_estimation"
+        )
+    } else {
+      message("Warning: No 'choice' columns found for pivot_longer")
+      # Return empty tibble with expected structure if no choice columns
+      if (nrow(df) > 0) {
+        df$choice <- NA
+        df$prob_estimation <- NA
+      } else {
+        df <- tibble(participant = character(), block = numeric(), 
+                    choice = character(), prob_estimation = numeric())
+      }
+    }
   }
   
   df
