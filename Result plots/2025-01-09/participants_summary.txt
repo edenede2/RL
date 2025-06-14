@@ -1,0 +1,31 @@
+
+Total Participants: 162 
+ Total Learners: 100 
+
+ Fibro Group:
+ - Total Participants: 138 
+ - Learners: 81 
+ - Percentage of Learners: 58.70% 
+
+ Healthy Group:
+ - Total Participants: 24 
+ - Learners: 19 
+ - Percentage of Learners: 79.17% 
+
+
+________________________________________________
+
+Used to be before fix:
+
+Total Participants: 162  
+Total Learners: 114  
+
+Fibro Group:  
+- Total Participants: 139  
+- Learners: 92  
+- Percentage of Learners: 66.19%  
+
+Healthy Group:  
+- Total Participants: 23  
+- Learners: 22  
+- Percentage of Learners: 95.65%  
