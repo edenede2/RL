@@ -1,0 +1,17 @@
+group,block,pair_type,mean,sem
+Fibro,5,non-reversed,0.0,0.0
+Fibro,5,reversed,0.0,
+Fibro,6,non-reversed,0.0,0.0
+Fibro,6,reversed,0.0,0.0
+Fibro,7,non-reversed,0.0,0.0
+Fibro,7,reversed,0.0,0.0
+Healthy,6,non-reversed,0.0,0.0
+Healthy,6,reversed,0.0,0.0
+Healthy,7,non-reversed,0.0,0.0
+Healthy,7,reversed,0.0,0.0
+Healthy Stress,1,reversed,0.0,0.0
+Healthy Stress,2,reversed,0.0,0.0
+Healthy Stress,3,reversed,0.0,0.0
+Healthy Stress,4,reversed,0.0,0.0
+Healthy Stress,5,reversed,0.0,0.0
+Healthy Stress,6,reversed,0.0,0.0

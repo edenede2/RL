@@ -1,0 +1,9 @@
+{
+  "number_of_participants": 273,
+  "number_of_blocks": 9,
+  "number_of_pair_types": 2,
+  "number_of_groups": 3,
+  "is_balanced": false,
+  "min_observations_per_participant": 14,
+  "max_observations_per_participant": 18
+}

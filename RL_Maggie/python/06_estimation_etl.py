@@ -2,15 +2,23 @@ import pandas as pd
 from pathlib import Path
 import importlib
 
+# Import setup module
 setup = importlib.import_module('00_setup')
 LOCAL_DATA_DIR = setup.LOCAL_DATA_DIR
 STRESS_DATA_DIR = setup.STRESS_DATA_DIR
+ESTIMATION_DATA_DIR = setup.ESTIMATION_DATA_DIR
+REPORTS_DIR = setup.REPORTS_DIR
+save_to_csv = setup.save_to_csv
+save_to_json = setup.save_to_json
+
+# Import trial data
 merge_mod = importlib.import_module('04_trial_merge_clean')
 full_trial_data = merge_mod.full_trial_data
 all_non_learners = merge_mod.all_non_learners
 
 
 def process_single_csv_file_for_estimation_data(file_path: Path) -> pd.DataFrame:
+    """Process a single CSV file to extract estimation data"""
     try:
         sub_df = pd.read_csv(file_path)
         if 'estimation_rating.response' not in sub_df.columns:
@@ -37,6 +45,12 @@ def process_single_csv_file_for_estimation_data(file_path: Path) -> pd.DataFrame
         if df['block'].max() == 7:
             df = df[df['block'] != 1]
             df['block'] -= 1
+        
+        # Save individual participant data
+        if not df.empty:
+            participant_id = df['participant'].iloc[0]
+            save_to_csv(df, f'estimation_raw_{participant_id}.csv', ESTIMATION_DATA_DIR)
+            
         return df
     except Exception as e:
         print(f"Error processing {file_path}: {e}")
@@ -206,6 +220,16 @@ try:
                     participant_variability = full_estimation_data.groupby('participant')['estimation_response'].std().reset_index(name='sd_estimation')
                     low_var_participants = participant_variability[participant_variability['sd_estimation'] < 1]['participant'].tolist()
                     full_estimation_data_clean = full_estimation_data[~full_estimation_data['participant'].isin(low_var_participants + all_non_learners)]
+                    
+                    # Save full and cleaned estimation data
+                    save_to_csv(full_estimation_data, 'full_estimation_data.csv', ESTIMATION_DATA_DIR)
+                    save_to_csv(full_estimation_data_clean, 'full_estimation_data_clean.csv', ESTIMATION_DATA_DIR)
+                    
+                    # Save participant variability data
+                    save_to_csv(participant_variability, 'participant_estimation_variability.csv', ESTIMATION_DATA_DIR)
+                    
+                    # Save low variability participants list
+                    save_to_json({'low_var_participants': low_var_participants}, 'low_var_participants.json')
                 else:
                     print("Warning: No valid stress estimation data")
                     full_estimation_data = estimation_with_choices_fibro_healthy[['participant', 'block', 'estimation_response', 'pair_type', 'is_high_probe', 'group']]
@@ -214,6 +238,11 @@ try:
                     participant_variability = full_estimation_data.groupby('participant')['estimation_response'].std().reset_index(name='sd_estimation')
                     low_var_participants = participant_variability[participant_variability['sd_estimation'] < 1]['participant'].tolist()
                     full_estimation_data_clean = full_estimation_data[~full_estimation_data['participant'].isin(low_var_participants + all_non_learners)]
+                    
+                    # Save data with fibro/healthy only
+                    save_to_csv(full_estimation_data, 'full_estimation_data_fibro_healthy_only.csv', ESTIMATION_DATA_DIR)
+                    save_to_csv(full_estimation_data_clean, 'full_estimation_data_clean_fibro_healthy_only.csv', ESTIMATION_DATA_DIR)
+                    save_to_csv(participant_variability, 'participant_estimation_variability_fibro_healthy_only.csv', ESTIMATION_DATA_DIR)
             else:
                 print("Warning: Missing pair_type columns in merged data")
         else:
@@ -221,7 +250,18 @@ try:
             
 except Exception as e:
     print(f"Error in estimation data processing: {e}")
+    full_estimation_data = pd.DataFrame()
+    full_estimation_data_clean = pd.DataFrame()
     
 # Print summary
-print(f"Full estimation data: {len(full_estimation_data)} rows")
-print(f"Clean estimation data: {len(full_estimation_data_clean)} rows")
+print(f"Full estimation data: {len(full_estimation_data) if 'full_estimation_data' in locals() else 0} rows")
+print(f"Clean estimation data: {len(full_estimation_data_clean) if 'full_estimation_data_clean' in locals() else 0} rows")
+
+# Save summary information
+estimation_summary = {
+    "full_estimation_data_rows": len(full_estimation_data) if 'full_estimation_data' in locals() else 0,
+    "clean_estimation_data_rows": len(full_estimation_data_clean) if 'full_estimation_data_clean' in locals() else 0,
+    "participants_removed_low_var": len(low_var_participants) if 'low_var_participants' in locals() else 0,
+    "non_learners_removed": len(all_non_learners)
+}
+save_to_json(estimation_summary, 'estimation_summary.json', REPORTS_DIR)

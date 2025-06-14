@@ -1,0 +1,989 @@
+group,participant,block,pair_type,False
+Fibro,sub_008,6,non-reversed,50.0
+Fibro,sub_008,6,reversed,50.0
+Fibro,sub_008,7,reversed,50.0
+Fibro,sub_009,6,non-reversed,64.0
+Fibro,sub_009,6,reversed,57.5
+Fibro,sub_009,7,non-reversed,73.0
+Fibro,sub_015,6,non-reversed,2.0
+Fibro,sub_015,6,reversed,100.0
+Fibro,sub_015,7,non-reversed,78.0
+Fibro,sub_026,6,non-reversed,50.5
+Fibro,sub_026,6,reversed,100.0
+Fibro,sub_026,7,reversed,1.0
+Fibro,sub_028,6,non-reversed,66.0
+Fibro,sub_028,6,reversed,36.0
+Fibro,sub_028,7,reversed,59.0
+Fibro,sub_032,6,non-reversed,56.0
+Fibro,sub_032,6,reversed,30.0
+Fibro,sub_032,7,reversed,73.0
+Fibro,sub_039,6,non-reversed,15.0
+Fibro,sub_039,6,reversed,52.0
+Fibro,sub_039,7,non-reversed,82.0
+Fibro,sub_040,6,non-reversed,77.0
+Fibro,sub_040,6,reversed,26.0
+Fibro,sub_040,7,reversed,22.0
+Fibro,sub_042,6,non-reversed,98.5
+Fibro,sub_042,6,reversed,1.0
+Fibro,sub_042,7,reversed,100.0
+Fibro,sub_046,6,non-reversed,75.0
+Fibro,sub_046,6,reversed,100.0
+Fibro,sub_046,7,reversed,100.0
+Fibro,sub_054,6,non-reversed,55.0
+Fibro,sub_054,6,reversed,100.0
+Fibro,sub_054,7,reversed,50.0
+Fibro,sub_072,6,non-reversed,52.0
+Fibro,sub_072,6,reversed,50.0
+Fibro,sub_072,7,reversed,87.0
+Fibro,sub_076,6,non-reversed,51.0
+Fibro,sub_076,6,reversed,8.0
+Fibro,sub_076,7,reversed,95.0
+Fibro,sub_077,6,non-reversed,66.0
+Fibro,sub_077,6,reversed,45.0
+Fibro,sub_077,7,non-reversed,49.0
+Fibro,sub_080,6,non-reversed,100.0
+Fibro,sub_080,6,reversed,1.0
+Fibro,sub_080,7,reversed,100.0
+Fibro,sub_083,6,non-reversed,50.0
+Fibro,sub_083,6,reversed,50.0
+Fibro,sub_083,7,non-reversed,50.0
+Fibro,sub_089,6,non-reversed,50.0
+Fibro,sub_089,6,reversed,47.5
+Fibro,sub_089,7,non-reversed,62.0
+Fibro,sub_094,6,non-reversed,36.0
+Fibro,sub_094,6,reversed,98.0
+Fibro,sub_094,7,reversed,20.0
+Fibro,sub_100,6,non-reversed,53.5
+Fibro,sub_100,6,reversed,36.0
+Fibro,sub_100,7,reversed,69.0
+Fibro,sub_101,6,non-reversed,73.0
+Fibro,sub_101,6,reversed,27.5
+Fibro,sub_101,7,non-reversed,9.0
+Fibro,sub_105,6,non-reversed,50.0
+Fibro,sub_105,6,reversed,95.5
+Fibro,sub_105,7,non-reversed,72.0
+Fibro,sub_107,6,non-reversed,6.0
+Fibro,sub_107,6,reversed,51.0
+Fibro,sub_107,7,non-reversed,98.0
+Fibro,sub_115,6,non-reversed,50.0
+Fibro,sub_115,6,reversed,48.5
+Fibro,sub_115,7,non-reversed,69.0
+Fibro,sub_118,6,non-reversed,51.5
+Fibro,sub_118,6,reversed,73.0
+Fibro,sub_118,7,reversed,25.0
+Fibro,sub_120,6,non-reversed,49.0
+Fibro,sub_120,6,reversed,6.0
+Fibro,sub_120,7,reversed,95.0
+Fibro,sub_124,6,non-reversed,50.5
+Fibro,sub_124,6,reversed,50.0
+Fibro,sub_124,7,reversed,100.0
+Fibro,sub_128,6,non-reversed,50.5
+Fibro,sub_128,6,reversed,80.0
+Fibro,sub_128,7,reversed,31.0
+Fibro,sub_140,6,non-reversed,50.0
+Fibro,sub_140,6,reversed,3.0
+Fibro,sub_140,7,reversed,97.0
+Fibro,sub_143,6,non-reversed,67.0
+Fibro,sub_143,6,reversed,82.0
+Fibro,sub_143,7,non-reversed,39.0
+Fibro,sub_146,6,non-reversed,75.0
+Fibro,sub_146,6,reversed,50.0
+Fibro,sub_146,7,reversed,50.0
+Fibro,sub_1502,6,non-reversed,43.0
+Fibro,sub_1502,6,reversed,63.0
+Fibro,sub_1502,7,reversed,20.0
+Fibro,sub_154,6,non-reversed,50.0
+Fibro,sub_154,6,reversed,74.0
+Fibro,sub_154,7,reversed,26.0
+Fibro,sub_1557,6,non-reversed,44.0
+Fibro,sub_1557,6,reversed,44.0
+Fibro,sub_1557,7,non-reversed,54.0
+Fibro,sub_156,6,non-reversed,48.5
+Fibro,sub_156,6,reversed,79.0
+Fibro,sub_156,7,reversed,14.0
+Fibro,sub_1578,6,non-reversed,52.5
+Fibro,sub_1578,6,reversed,98.0
+Fibro,sub_1578,7,reversed,18.0
+Fibro,sub_1603,6,non-reversed,1.0
+Fibro,sub_1603,6,reversed,26.5
+Fibro,sub_1603,7,non-reversed,50.0
+Fibro,sub_164,6,non-reversed,47.0
+Fibro,sub_164,6,reversed,84.0
+Fibro,sub_164,7,reversed,14.0
+Fibro,sub_168,6,non-reversed,27.5
+Fibro,sub_168,6,reversed,52.0
+Fibro,sub_168,7,reversed,100.0
+Fibro,sub_173,6,non-reversed,100.0
+Fibro,sub_173,6,reversed,94.0
+Fibro,sub_173,7,non-reversed,100.0
+Fibro,sub_177,6,non-reversed,50.0
+Fibro,sub_177,6,reversed,50.0
+Fibro,sub_177,7,non-reversed,50.0
+Fibro,sub_181,6,non-reversed,50.0
+Fibro,sub_181,6,reversed,74.0
+Fibro,sub_181,7,non-reversed,50.0
+Fibro,sub_184,6,non-reversed,50.5
+Fibro,sub_184,6,reversed,3.0
+Fibro,sub_184,7,reversed,100.0
+Fibro,sub_207,6,non-reversed,80.0
+Fibro,sub_207,6,reversed,1.0
+Fibro,sub_207,7,non-reversed,73.0
+Fibro,sub_212,6,non-reversed,75.0
+Fibro,sub_212,6,reversed,1.0
+Fibro,sub_212,7,reversed,100.0
+Fibro,sub_213,6,non-reversed,30.0
+Fibro,sub_213,6,reversed,31.0
+Fibro,sub_213,7,non-reversed,57.0
+Fibro,sub_215,6,non-reversed,93.0
+Fibro,sub_215,6,reversed,92.5
+Fibro,sub_215,7,non-reversed,81.0
+Fibro,sub_217,6,non-reversed,77.0
+Fibro,sub_217,6,reversed,56.0
+Fibro,sub_217,7,non-reversed,72.0
+Fibro,sub_219,6,non-reversed,33.0
+Fibro,sub_219,6,reversed,71.5
+Fibro,sub_219,7,non-reversed,71.0
+Fibro,sub_221,6,non-reversed,100.0
+Fibro,sub_221,6,reversed,54.5
+Fibro,sub_221,7,non-reversed,22.0
+Fibro,sub_227,6,non-reversed,1.0
+Fibro,sub_227,6,reversed,75.0
+Fibro,sub_227,7,non-reversed,1.0
+Fibro,sub_230,6,non-reversed,66.5
+Fibro,sub_230,6,reversed,10.0
+Fibro,sub_230,7,reversed,89.0
+Fibro,sub_248,6,non-reversed,47.0
+Fibro,sub_248,6,reversed,50.0
+Fibro,sub_248,7,reversed,53.0
+Fibro,sub_256,6,non-reversed,99.5
+Fibro,sub_256,6,reversed,100.0
+Fibro,sub_256,7,reversed,1.0
+Fibro,sub_257,6,non-reversed,66.0
+Fibro,sub_257,6,reversed,53.5
+Fibro,sub_257,7,non-reversed,36.0
+Fibro,sub_258,6,non-reversed,56.5
+Fibro,sub_258,6,reversed,80.0
+Fibro,sub_258,7,reversed,13.0
+Fibro,sub_265,6,non-reversed,35.0
+Fibro,sub_265,5,non-reversed,69.0
+Fibro,sub_266,6,non-reversed,48.0
+Fibro,sub_268,6,non-reversed,61.5
+Fibro,sub_268,6,reversed,10.0
+Fibro,sub_268,7,reversed,50.0
+Fibro,sub_270,6,non-reversed,56.5
+Fibro,sub_270,6,reversed,27.0
+Fibro,sub_270,7,reversed,33.0
+Fibro,sub_284,6,non-reversed,74.5
+Fibro,sub_284,6,reversed,4.0
+Fibro,sub_284,7,reversed,98.0
+Fibro,sub_287,6,non-reversed,1.0
+Fibro,sub_287,6,reversed,77.0
+Fibro,sub_287,7,non-reversed,79.0
+Fibro,sub_288,6,non-reversed,56.0
+Fibro,sub_288,6,reversed,34.0
+Fibro,sub_288,7,reversed,38.0
+Fibro,sub_289,6,non-reversed,50.0
+Fibro,sub_289,6,reversed,58.5
+Fibro,sub_289,7,non-reversed,50.0
+Fibro,sub_303,6,non-reversed,27.0
+Fibro,sub_303,6,reversed,52.5
+Fibro,sub_303,7,non-reversed,79.0
+Fibro,sub_312,6,non-reversed,46.5
+Fibro,sub_312,6,reversed,18.0
+Fibro,sub_312,7,reversed,82.0
+Fibro,sub_324,6,non-reversed,52.5
+Fibro,sub_324,6,reversed,27.0
+Fibro,sub_324,7,reversed,73.0
+Fibro,sub_329,6,non-reversed,86.0
+Fibro,sub_329,6,reversed,47.5
+Fibro,sub_329,7,non-reversed,16.0
+Fibro,sub_331,6,non-reversed,25.0
+Fibro,sub_331,6,reversed,50.0
+Fibro,sub_331,7,non-reversed,25.0
+Fibro,sub_339,6,non-reversed,64.0
+Fibro,sub_339,6,reversed,49.5
+Fibro,sub_339,7,non-reversed,40.0
+Fibro,sub_345,6,non-reversed,46.0
+Fibro,sub_345,6,reversed,53.5
+Fibro,sub_345,7,non-reversed,50.0
+Fibro,sub_346,6,non-reversed,93.5
+Fibro,sub_346,6,reversed,1.0
+Fibro,sub_346,7,reversed,95.0
+Fibro,sub_357,6,non-reversed,79.0
+Fibro,sub_357,6,reversed,18.0
+Fibro,sub_357,7,non-reversed,13.0
+Fibro,sub_367,6,non-reversed,62.0
+Fibro,sub_367,6,reversed,54.0
+Fibro,sub_367,7,non-reversed,53.0
+Fibro,sub_369,6,non-reversed,74.0
+Fibro,sub_369,6,reversed,53.0
+Fibro,sub_369,7,non-reversed,29.0
+Fibro,sub_371,6,non-reversed,5.0
+Fibro,sub_371,6,reversed,50.5
+Fibro,sub_371,7,non-reversed,100.0
+Fibro,sub_385,6,non-reversed,29.0
+Fibro,sub_385,6,reversed,42.0
+Fibro,sub_385,7,non-reversed,1.0
+Fibro,sub_392,6,non-reversed,50.5
+Fibro,sub_392,6,reversed,8.0
+Fibro,sub_392,7,reversed,98.0
+Fibro,sub_396,6,non-reversed,89.0
+Fibro,sub_396,6,reversed,17.0
+Fibro,sub_396,7,reversed,75.0
+Fibro,sub_401,6,non-reversed,77.0
+Fibro,sub_401,6,reversed,49.5
+Fibro,sub_401,7,non-reversed,30.0
+Fibro,sub_403,6,non-reversed,64.0
+Fibro,sub_403,6,reversed,54.5
+Fibro,sub_405,6,non-reversed,98.0
+Fibro,sub_405,6,reversed,50.5
+Fibro,sub_405,7,non-reversed,97.0
+Fibro,sub_406,6,non-reversed,83.5
+Fibro,sub_406,6,reversed,75.0
+Fibro,sub_406,7,reversed,97.0
+Fibro,sub_437,6,reversed,75.0
+Fibro,sub_437,7,non-reversed,5.0
+Fibro,sub_442,6,non-reversed,100.0
+Fibro,sub_442,6,reversed,100.0
+Fibro,sub_442,7,reversed,5.0
+Fibro,sub_448,6,non-reversed,6.5
+Fibro,sub_448,6,reversed,70.0
+Fibro,sub_448,7,reversed,15.0
+Fibro,sub_457,6,non-reversed,37.0
+Fibro,sub_457,6,reversed,82.5
+Fibro,sub_457,7,non-reversed,43.0
+Fibro,sub_458,6,non-reversed,50.5
+Fibro,sub_458,6,reversed,4.0
+Fibro,sub_458,7,reversed,1.0
+Fibro,sub_462,6,non-reversed,52.5
+Fibro,sub_462,6,reversed,100.0
+Fibro,sub_465,6,non-reversed,1.0
+Fibro,sub_465,6,reversed,95.0
+Fibro,sub_465,7,non-reversed,1.0
+Fibro,sub_477,6,non-reversed,80.0
+Fibro,sub_477,6,reversed,63.0
+Fibro,sub_477,7,non-reversed,68.0
+Fibro,sub_480,6,non-reversed,50.5
+Fibro,sub_480,6,reversed,100.0
+Fibro,sub_480,7,reversed,4.0
+Fibro,sub_487,6,non-reversed,50.0
+Fibro,sub_487,6,reversed,50.5
+Fibro,sub_487,7,non-reversed,50.0
+Fibro,sub_489,6,non-reversed,25.0
+Fibro,sub_489,6,reversed,50.5
+Fibro,sub_489,7,non-reversed,28.0
+Fibro,sub_490,6,non-reversed,55.5
+Fibro,sub_490,6,reversed,50.0
+Fibro,sub_490,7,reversed,23.0
+Fibro,sub_505,6,non-reversed,74.0
+Fibro,sub_505,6,reversed,49.5
+Fibro,sub_505,7,non-reversed,24.0
+Fibro,sub_512,6,non-reversed,56.5
+Fibro,sub_512,6,reversed,64.0
+Fibro,sub_512,7,reversed,83.0
+Fibro,sub_515,6,non-reversed,20.0
+Fibro,sub_515,6,reversed,70.5
+Fibro,sub_515,7,non-reversed,50.0
+Fibro,sub_529,6,non-reversed,50.0
+Fibro,sub_529,6,reversed,50.0
+Fibro,sub_529,7,non-reversed,50.0
+Fibro,sub_535,6,non-reversed,1.0
+Fibro,sub_535,6,reversed,50.5
+Fibro,sub_535,7,non-reversed,100.0
+Fibro,sub_537,6,non-reversed,54.0
+Fibro,sub_537,6,reversed,54.5
+Fibro,sub_537,7,non-reversed,65.0
+Fibro,sub_545,6,non-reversed,76.0
+Fibro,sub_545,6,reversed,76.0
+Fibro,sub_571,6,non-reversed,18.0
+Fibro,sub_571,7,non-reversed,82.0
+Fibro,sub_572,6,non-reversed,53.0
+Fibro,sub_572,6,reversed,27.0
+Fibro,sub_572,7,reversed,68.0
+Fibro,sub_574,6,non-reversed,50.5
+Fibro,sub_574,6,reversed,95.0
+Fibro,sub_574,7,reversed,90.0
+Fibro,sub_576,6,non-reversed,95.0
+Fibro,sub_576,7,reversed,86.0
+Fibro,sub_584,6,non-reversed,52.5
+Fibro,sub_584,6,reversed,33.0
+Fibro,sub_584,7,reversed,68.0
+Fibro,sub_588,6,non-reversed,50.0
+Fibro,sub_588,6,reversed,23.0
+Fibro,sub_588,7,reversed,76.0
+Fibro,sub_589,6,non-reversed,32.0
+Fibro,sub_589,6,reversed,51.5
+Fibro,sub_589,7,non-reversed,73.0
+Fibro,sub_600,6,non-reversed,54.0
+Fibro,sub_600,7,reversed,83.0
+Fibro,sub_605,6,non-reversed,3.0
+Fibro,sub_605,6,reversed,88.5
+Fibro,sub_605,7,non-reversed,82.0
+Fibro,sub_609,6,non-reversed,70.0
+Fibro,sub_609,6,reversed,33.0
+Fibro,sub_609,7,non-reversed,34.0
+Fibro,sub_639,6,non-reversed,99.0
+Fibro,sub_639,6,reversed,100.0
+Fibro,sub_639,7,non-reversed,98.0
+Fibro,sub_661,6,reversed,100.0
+Fibro,sub_667,6,non-reversed,25.0
+Fibro,sub_667,7,non-reversed,24.0
+Fibro,sub_672,6,non-reversed,97.0
+Fibro,sub_672,6,reversed,100.0
+Fibro,sub_672,7,reversed,100.0
+Fibro,sub_683,6,reversed,51.0
+Fibro,sub_683,7,non-reversed,70.0
+Fibro,sub_690,6,non-reversed,100.0
+Fibro,sub_690,6,reversed,100.0
+Fibro,sub_690,7,reversed,100.0
+Fibro,sub_692,6,non-reversed,23.0
+Fibro,sub_692,6,reversed,50.0
+Fibro,sub_692,7,reversed,50.0
+Fibro,sub_699,6,non-reversed,51.0
+Fibro,sub_699,6,reversed,50.0
+Fibro,sub_699,7,non-reversed,56.0
+Fibro,sub_706,6,non-reversed,46.0
+Fibro,sub_706,6,reversed,50.0
+Fibro,sub_706,7,reversed,9.0
+Fibro,sub_711,6,non-reversed,50.0
+Fibro,sub_711,6,reversed,75.0
+Fibro,sub_711,7,non-reversed,50.0
+Fibro,sub_714,6,non-reversed,49.0
+Fibro,sub_714,6,reversed,66.0
+Fibro,sub_714,7,reversed,34.0
+Fibro,sub_716,6,non-reversed,47.0
+Fibro,sub_716,6,reversed,68.0
+Fibro,sub_716,7,reversed,72.0
+Fibro,sub_725,6,non-reversed,100.0
+Fibro,sub_725,6,reversed,100.0
+Fibro,sub_725,7,non-reversed,2.0
+Fibro,sub_732,6,non-reversed,50.0
+Fibro,sub_732,6,reversed,50.0
+Fibro,sub_732,7,reversed,50.0
+Fibro,sub_736,6,non-reversed,100.0
+Fibro,sub_736,7,reversed,100.0
+Fibro,sub_765,6,non-reversed,100.0
+Fibro,sub_765,6,reversed,100.0
+Fibro,sub_765,7,non-reversed,100.0
+Fibro,sub_777,6,non-reversed,78.0
+Fibro,sub_777,6,reversed,56.0
+Fibro,sub_777,7,non-reversed,5.0
+Fibro,sub_778,6,non-reversed,90.0
+Fibro,sub_778,6,reversed,80.0
+Fibro,sub_778,7,reversed,18.0
+Fibro,sub_788,6,non-reversed,100.0
+Fibro,sub_788,6,reversed,68.0
+Fibro,sub_788,7,reversed,100.0
+Fibro,sub_791,6,reversed,50.0
+Fibro,sub_792,6,non-reversed,50.0
+Fibro,sub_792,6,reversed,14.0
+Fibro,sub_792,7,reversed,94.0
+Fibro,sub_794,6,non-reversed,100.0
+Fibro,sub_794,6,reversed,1.0
+Fibro,sub_794,7,reversed,100.0
+Fibro,sub_795,6,non-reversed,85.0
+Fibro,sub_795,5,non-reversed,1.0
+Fibro,sub_795,5,reversed,52.0
+Fibro,sub_798,6,non-reversed,48.0
+Fibro,sub_798,6,reversed,100.0
+Fibro,sub_798,7,reversed,23.0
+Fibro,sub_799,6,non-reversed,23.0
+Fibro,sub_799,6,reversed,48.5
+Fibro,sub_799,7,non-reversed,81.0
+Fibro,sub_803,6,non-reversed,42.0
+Fibro,sub_803,6,reversed,55.0
+Fibro,sub_803,7,non-reversed,66.0
+Fibro,sub_807,6,non-reversed,6.0
+Fibro,sub_807,6,reversed,50.5
+Fibro,sub_807,7,non-reversed,94.0
+Fibro,sub_809,6,non-reversed,74.0
+Fibro,sub_809,6,reversed,54.5
+Fibro,sub_809,7,non-reversed,25.0
+Fibro,sub_810,6,non-reversed,54.5
+Fibro,sub_810,6,reversed,49.0
+Fibro,sub_813,6,reversed,100.0
+Fibro,sub_816,6,non-reversed,59.0
+Fibro,sub_818,6,non-reversed,47.0
+Fibro,sub_818,6,reversed,75.0
+Fibro,sub_822,6,non-reversed,53.0
+Fibro,sub_822,6,reversed,87.0
+Fibro,sub_822,7,reversed,14.0
+Fibro,sub_828,6,non-reversed,58.5
+Fibro,sub_828,6,reversed,17.0
+Fibro,sub_828,7,reversed,100.0
+Fibro,sub_834,6,non-reversed,50.5
+Fibro,sub_834,6,reversed,100.0
+Fibro,sub_834,7,reversed,5.0
+Fibro,sub_840,6,non-reversed,88.5
+Fibro,sub_840,6,reversed,15.0
+Fibro,sub_840,7,reversed,88.0
+Fibro,sub_841,6,non-reversed,100.0
+Fibro,sub_841,6,reversed,50.5
+Fibro,sub_841,7,non-reversed,1.0
+Fibro,sub_845,6,non-reversed,32.0
+Fibro,sub_845,6,reversed,70.5
+Fibro,sub_845,7,non-reversed,35.0
+Fibro,sub_853,6,non-reversed,98.0
+Fibro,sub_853,6,reversed,51.0
+Fibro,sub_853,7,non-reversed,2.0
+Fibro,sub_871,6,reversed,50.0
+Fibro,sub_871,7,non-reversed,84.0
+Fibro,sub_872,6,non-reversed,75.0
+Fibro,sub_872,6,reversed,100.0
+Fibro,sub_872,7,reversed,100.0
+Fibro,sub_880,6,non-reversed,50.0
+Fibro,sub_880,6,reversed,11.0
+Fibro,sub_880,7,reversed,91.0
+Fibro,sub_882,6,non-reversed,73.5
+Fibro,sub_882,6,reversed,8.0
+Fibro,sub_882,7,reversed,76.0
+Fibro,sub_899,6,non-reversed,2.0
+Fibro,sub_899,6,reversed,100.0
+Fibro,sub_899,7,non-reversed,86.0
+Healthy,sub_1003,6,reversed,50.0
+Healthy,sub_1010,6,non-reversed,48.5
+Healthy,sub_1010,6,reversed,68.0
+Healthy,sub_1010,7,reversed,64.0
+Healthy,sub_1012,6,non-reversed,50.5
+Healthy,sub_1012,6,reversed,26.0
+Healthy,sub_1012,7,reversed,98.0
+Healthy,sub_1017,6,reversed,44.5
+Healthy,sub_1017,7,non-reversed,16.0
+Healthy,sub_1020,6,non-reversed,50.0
+Healthy,sub_1022,6,non-reversed,45.0
+Healthy,sub_1022,6,reversed,83.0
+Healthy,sub_1022,7,reversed,15.0
+Healthy,sub_1024,6,reversed,1.0
+Healthy,sub_1024,7,reversed,75.0
+Healthy,sub_908,7,reversed,30.0
+Healthy,sub_914,6,non-reversed,54.5
+Healthy,sub_914,6,reversed,49.0
+Healthy,sub_914,7,reversed,61.0
+Healthy,sub_916,6,non-reversed,31.0
+Healthy,sub_916,6,reversed,31.0
+Healthy,sub_916,7,reversed,32.0
+Healthy,sub_919,6,non-reversed,30.0
+Healthy,sub_919,6,reversed,59.5
+Healthy,sub_919,7,non-reversed,100.0
+Healthy,sub_920,6,non-reversed,50.5
+Healthy,sub_920,6,reversed,9.0
+Healthy,sub_920,7,reversed,100.0
+Healthy,sub_921,6,non-reversed,70.0
+Healthy,sub_921,6,reversed,53.5
+Healthy,sub_921,7,non-reversed,27.0
+Healthy,sub_922,6,non-reversed,62.0
+Healthy,sub_925,6,non-reversed,77.0
+Healthy,sub_925,6,reversed,59.5
+Healthy,sub_925,7,non-reversed,39.0
+Healthy,sub_926,6,non-reversed,50.5
+Healthy,sub_926,6,reversed,100.0
+Healthy,sub_926,7,reversed,1.0
+Healthy,sub_931,6,non-reversed,37.0
+Healthy,sub_931,6,reversed,47.5
+Healthy,sub_931,7,non-reversed,31.0
+Healthy,sub_936,6,non-reversed,50.5
+Healthy,sub_936,6,reversed,51.0
+Healthy,sub_936,7,reversed,51.0
+Healthy,sub_938,6,non-reversed,49.0
+Healthy,sub_938,6,reversed,67.0
+Healthy,sub_938,7,reversed,34.0
+Healthy,sub_946,6,non-reversed,1.0
+Healthy,sub_946,6,reversed,100.0
+Healthy,sub_946,7,reversed,100.0
+Healthy,sub_953,6,reversed,62.0
+Healthy,sub_954,6,non-reversed,64.0
+Healthy,sub_954,6,reversed,47.0
+Healthy,sub_954,7,reversed,55.0
+Healthy,sub_961,6,non-reversed,53.0
+Healthy,sub_961,6,reversed,50.0
+Healthy,sub_969,6,non-reversed,71.0
+Healthy,sub_969,6,reversed,50.5
+Healthy,sub_969,7,non-reversed,25.0
+Healthy,sub_981,6,non-reversed,72.0
+Healthy,sub_981,6,reversed,48.5
+Healthy,sub_981,7,non-reversed,31.0
+Healthy,sub_986,6,non-reversed,50.5
+Healthy,sub_986,7,reversed,1.0
+Healthy,sub_987,6,non-reversed,1.0
+Healthy,sub_987,6,reversed,50.5
+Healthy,sub_987,7,non-reversed,100.0
+Healthy,sub_990,6,non-reversed,51.5
+Healthy,sub_990,6,reversed,90.0
+Healthy,sub_990,7,reversed,7.0
+Healthy,sub_996,6,non-reversed,70.5
+Healthy,sub_996,6,reversed,57.0
+Healthy,sub_996,7,reversed,46.0
+Healthy Stress,s_001,6,reversed,46.5
+Healthy Stress,s_001,5,reversed,52.0
+Healthy Stress,s_001,1,reversed,48.0
+Healthy Stress,s_001,2,reversed,50.25
+Healthy Stress,s_001,3,reversed,48.0
+Healthy Stress,s_001,4,reversed,49.0
+Healthy Stress,s_002,6,reversed,49.0
+Healthy Stress,s_002,5,reversed,20.0
+Healthy Stress,s_002,1,reversed,50.75
+Healthy Stress,s_002,2,reversed,53.75
+Healthy Stress,s_002,3,reversed,50.75
+Healthy Stress,s_002,4,reversed,50.0
+Healthy Stress,s_003,6,reversed,62.5
+Healthy Stress,s_003,5,reversed,71.25
+Healthy Stress,s_003,1,reversed,44.5
+Healthy Stress,s_003,2,reversed,47.0
+Healthy Stress,s_003,3,reversed,42.5
+Healthy Stress,s_003,4,reversed,54.75
+Healthy Stress,s_004,6,reversed,55.25
+Healthy Stress,s_004,5,reversed,54.25
+Healthy Stress,s_004,1,reversed,53.25
+Healthy Stress,s_004,2,reversed,56.75
+Healthy Stress,s_004,3,reversed,52.0
+Healthy Stress,s_004,4,reversed,56.75
+Healthy Stress,s_006,6,reversed,50.0
+Healthy Stress,s_006,5,reversed,50.0
+Healthy Stress,s_006,1,reversed,45.5
+Healthy Stress,s_006,2,reversed,55.25
+Healthy Stress,s_006,3,reversed,48.5
+Healthy Stress,s_006,4,reversed,50.0
+Healthy Stress,s_007,6,reversed,38.75
+Healthy Stress,s_007,5,reversed,50.25
+Healthy Stress,s_007,1,reversed,49.0
+Healthy Stress,s_007,2,reversed,42.75
+Healthy Stress,s_007,3,reversed,47.75
+Healthy Stress,s_007,4,reversed,49.25
+Healthy Stress,s_008,6,reversed,44.75
+Healthy Stress,s_008,5,reversed,60.5
+Healthy Stress,s_008,1,reversed,50.75
+Healthy Stress,s_008,2,reversed,49.5
+Healthy Stress,s_008,3,reversed,48.25
+Healthy Stress,s_008,4,reversed,56.5
+Healthy Stress,s_009,6,reversed,53.5
+Healthy Stress,s_009,5,reversed,58.5
+Healthy Stress,s_009,1,reversed,58.75
+Healthy Stress,s_009,2,reversed,49.25
+Healthy Stress,s_009,3,reversed,44.25
+Healthy Stress,s_009,4,reversed,44.5
+Healthy Stress,s_011,6,reversed,51.75
+Healthy Stress,s_011,5,reversed,49.75
+Healthy Stress,s_011,1,reversed,50.75
+Healthy Stress,s_011,2,reversed,50.25
+Healthy Stress,s_011,3,reversed,48.5
+Healthy Stress,s_011,4,reversed,50.25
+Healthy Stress,s_012,6,reversed,53.0
+Healthy Stress,s_012,5,reversed,49.0
+Healthy Stress,s_012,1,reversed,38.25
+Healthy Stress,s_012,2,reversed,50.0
+Healthy Stress,s_012,3,reversed,43.25
+Healthy Stress,s_012,4,reversed,49.25
+Healthy Stress,s_013,6,reversed,50.0
+Healthy Stress,s_013,5,reversed,50.0
+Healthy Stress,s_013,1,reversed,45.5
+Healthy Stress,s_013,2,reversed,51.25
+Healthy Stress,s_013,3,reversed,59.5
+Healthy Stress,s_013,4,reversed,50.25
+Healthy Stress,s_015,6,reversed,40.25
+Healthy Stress,s_015,5,reversed,50.0
+Healthy Stress,s_015,1,reversed,42.25
+Healthy Stress,s_015,2,reversed,47.25
+Healthy Stress,s_015,3,reversed,38.25
+Healthy Stress,s_015,4,reversed,50.0
+Healthy Stress,s_016,6,reversed,73.25
+Healthy Stress,s_016,5,reversed,70.5
+Healthy Stress,s_016,1,reversed,55.5
+Healthy Stress,s_016,2,reversed,57.5
+Healthy Stress,s_016,3,reversed,48.25
+Healthy Stress,s_016,4,reversed,46.75
+Healthy Stress,s_017,6,reversed,53.0
+Healthy Stress,s_017,5,reversed,49.5
+Healthy Stress,s_017,1,reversed,35.5
+Healthy Stress,s_017,2,reversed,49.25
+Healthy Stress,s_017,3,reversed,48.0
+Healthy Stress,s_017,4,reversed,50.0
+Healthy Stress,s_020,6,reversed,46.25
+Healthy Stress,s_020,5,reversed,67.5
+Healthy Stress,s_020,1,reversed,51.75
+Healthy Stress,s_020,2,reversed,55.25
+Healthy Stress,s_020,3,reversed,51.0
+Healthy Stress,s_020,4,reversed,52.0
+Healthy Stress,s_021,6,reversed,45.25
+Healthy Stress,s_021,5,reversed,49.0
+Healthy Stress,s_021,1,reversed,50.25
+Healthy Stress,s_021,2,reversed,50.75
+Healthy Stress,s_021,3,reversed,46.75
+Healthy Stress,s_021,4,reversed,36.5
+Healthy Stress,s_022,6,reversed,51.5
+Healthy Stress,s_022,5,reversed,62.75
+Healthy Stress,s_022,1,reversed,50.0
+Healthy Stress,s_022,2,reversed,25.0
+Healthy Stress,s_022,3,reversed,69.5
+Healthy Stress,s_022,4,reversed,50.5
+Healthy Stress,s_024,6,reversed,50.5
+Healthy Stress,s_024,5,reversed,50.25
+Healthy Stress,s_024,1,reversed,53.25
+Healthy Stress,s_024,2,reversed,54.25
+Healthy Stress,s_024,3,reversed,69.0
+Healthy Stress,s_024,4,reversed,51.75
+Healthy Stress,s_025,6,reversed,49.5
+Healthy Stress,s_025,5,reversed,45.5
+Healthy Stress,s_025,1,reversed,62.25
+Healthy Stress,s_025,2,reversed,50.0
+Healthy Stress,s_025,3,reversed,49.25
+Healthy Stress,s_025,4,reversed,31.0
+Healthy Stress,s_026,6,reversed,48.75
+Healthy Stress,s_026,5,reversed,58.25
+Healthy Stress,s_026,1,reversed,48.25
+Healthy Stress,s_026,2,reversed,48.25
+Healthy Stress,s_026,3,reversed,54.0
+Healthy Stress,s_026,4,reversed,56.25
+Healthy Stress,s_027,6,reversed,38.0
+Healthy Stress,s_027,5,reversed,37.75
+Healthy Stress,s_027,1,reversed,54.75
+Healthy Stress,s_027,2,reversed,48.0
+Healthy Stress,s_027,3,reversed,42.75
+Healthy Stress,s_027,4,reversed,39.0
+Healthy Stress,s_028,6,reversed,50.25
+Healthy Stress,s_028,5,reversed,53.5
+Healthy Stress,s_028,1,reversed,50.5
+Healthy Stress,s_028,2,reversed,51.75
+Healthy Stress,s_028,3,reversed,51.25
+Healthy Stress,s_028,4,reversed,50.5
+Healthy Stress,s_030,6,reversed,50.25
+Healthy Stress,s_030,5,reversed,49.5
+Healthy Stress,s_030,1,reversed,49.75
+Healthy Stress,s_030,2,reversed,50.0
+Healthy Stress,s_030,3,reversed,50.75
+Healthy Stress,s_030,4,reversed,51.0
+Healthy Stress,s_032,6,reversed,51.5
+Healthy Stress,s_032,5,reversed,48.75
+Healthy Stress,s_032,1,reversed,49.25
+Healthy Stress,s_032,2,reversed,45.5
+Healthy Stress,s_032,3,reversed,47.0
+Healthy Stress,s_032,4,reversed,11.25
+Healthy Stress,s_034,6,reversed,39.75
+Healthy Stress,s_034,5,reversed,41.75
+Healthy Stress,s_034,1,reversed,44.75
+Healthy Stress,s_034,2,reversed,56.5
+Healthy Stress,s_034,3,reversed,50.0
+Healthy Stress,s_034,4,reversed,14.75
+Healthy Stress,s_036,6,reversed,50.0
+Healthy Stress,s_036,5,reversed,49.25
+Healthy Stress,s_036,1,reversed,48.0
+Healthy Stress,s_036,2,reversed,49.0
+Healthy Stress,s_036,3,reversed,50.5
+Healthy Stress,s_036,4,reversed,50.0
+Healthy Stress,s_038,6,reversed,60.0
+Healthy Stress,s_038,5,reversed,49.75
+Healthy Stress,s_038,1,reversed,68.75
+Healthy Stress,s_038,2,reversed,51.5
+Healthy Stress,s_038,3,reversed,61.25
+Healthy Stress,s_038,4,reversed,56.5
+Healthy Stress,s_039,6,reversed,57.5
+Healthy Stress,s_039,5,reversed,28.0
+Healthy Stress,s_039,1,reversed,46.5
+Healthy Stress,s_039,2,reversed,28.5
+Healthy Stress,s_039,3,reversed,52.0
+Healthy Stress,s_039,4,reversed,41.75
+Healthy Stress,s_040,6,reversed,48.0
+Healthy Stress,s_040,5,reversed,49.5
+Healthy Stress,s_040,1,reversed,50.0
+Healthy Stress,s_040,2,reversed,50.25
+Healthy Stress,s_040,3,reversed,48.25
+Healthy Stress,s_040,4,reversed,47.75
+Healthy Stress,s_041,6,reversed,50.0
+Healthy Stress,s_041,5,reversed,46.0
+Healthy Stress,s_041,1,reversed,49.75
+Healthy Stress,s_041,2,reversed,45.5
+Healthy Stress,s_041,3,reversed,51.5
+Healthy Stress,s_041,4,reversed,47.5
+Healthy Stress,s_043,6,reversed,53.25
+Healthy Stress,s_043,5,reversed,50.0
+Healthy Stress,s_043,1,reversed,45.25
+Healthy Stress,s_043,2,reversed,50.0
+Healthy Stress,s_043,3,reversed,51.0
+Healthy Stress,s_043,4,reversed,60.5
+Healthy Stress,s_044,6,reversed,50.75
+Healthy Stress,s_044,5,reversed,52.0
+Healthy Stress,s_044,1,reversed,49.75
+Healthy Stress,s_044,2,reversed,47.0
+Healthy Stress,s_044,3,reversed,55.5
+Healthy Stress,s_044,4,reversed,50.0
+Healthy Stress,s_045,6,reversed,30.75
+Healthy Stress,s_045,5,reversed,34.75
+Healthy Stress,s_045,1,reversed,47.25
+Healthy Stress,s_045,2,reversed,43.75
+Healthy Stress,s_045,3,reversed,47.0
+Healthy Stress,s_045,4,reversed,50.0
+Healthy Stress,s_046,6,reversed,50.25
+Healthy Stress,s_046,5,reversed,50.25
+Healthy Stress,s_046,1,reversed,49.25
+Healthy Stress,s_046,2,reversed,52.5
+Healthy Stress,s_046,3,reversed,50.0
+Healthy Stress,s_046,4,reversed,50.0
+Healthy Stress,s_047,6,reversed,52.75
+Healthy Stress,s_047,5,reversed,51.75
+Healthy Stress,s_047,1,reversed,48.0
+Healthy Stress,s_047,2,reversed,52.0
+Healthy Stress,s_047,3,reversed,51.5
+Healthy Stress,s_047,4,reversed,50.0
+Healthy Stress,s_048,6,reversed,50.5
+Healthy Stress,s_048,5,reversed,50.0
+Healthy Stress,s_048,1,reversed,51.0
+Healthy Stress,s_048,2,reversed,50.25
+Healthy Stress,s_048,3,reversed,50.0
+Healthy Stress,s_048,4,reversed,52.0
+Healthy Stress,s_049,6,reversed,60.0
+Healthy Stress,s_049,5,reversed,61.5
+Healthy Stress,s_049,1,reversed,51.25
+Healthy Stress,s_049,2,reversed,71.25
+Healthy Stress,s_049,3,reversed,57.25
+Healthy Stress,s_049,4,reversed,70.75
+Healthy Stress,s_050,6,reversed,50.0
+Healthy Stress,s_050,5,reversed,50.0
+Healthy Stress,s_050,1,reversed,62.5
+Healthy Stress,s_050,2,reversed,38.75
+Healthy Stress,s_050,3,reversed,50.0
+Healthy Stress,s_050,4,reversed,50.0
+Healthy Stress,s_051,6,reversed,49.0
+Healthy Stress,s_051,5,reversed,51.5
+Healthy Stress,s_051,1,reversed,50.5
+Healthy Stress,s_051,2,reversed,50.0
+Healthy Stress,s_051,3,reversed,50.75
+Healthy Stress,s_051,4,reversed,49.25
+Healthy Stress,s_052,6,reversed,51.25
+Healthy Stress,s_052,5,reversed,52.75
+Healthy Stress,s_052,1,reversed,54.75
+Healthy Stress,s_052,2,reversed,51.25
+Healthy Stress,s_052,3,reversed,54.25
+Healthy Stress,s_052,4,reversed,49.5
+Healthy Stress,s_054,6,reversed,51.75
+Healthy Stress,s_054,5,reversed,47.75
+Healthy Stress,s_054,1,reversed,54.75
+Healthy Stress,s_054,2,reversed,56.25
+Healthy Stress,s_054,3,reversed,51.0
+Healthy Stress,s_054,4,reversed,41.5
+Healthy Stress,s_055,6,reversed,50.25
+Healthy Stress,s_055,5,reversed,49.25
+Healthy Stress,s_055,1,reversed,50.0
+Healthy Stress,s_055,2,reversed,49.25
+Healthy Stress,s_055,3,reversed,60.75
+Healthy Stress,s_055,4,reversed,48.75
+Healthy Stress,s_056,6,reversed,50.0
+Healthy Stress,s_056,5,reversed,50.0
+Healthy Stress,s_056,1,reversed,44.25
+Healthy Stress,s_056,2,reversed,51.25
+Healthy Stress,s_056,3,reversed,48.0
+Healthy Stress,s_056,4,reversed,54.25
+Healthy Stress,s_057,6,reversed,50.25
+Healthy Stress,s_057,5,reversed,49.5
+Healthy Stress,s_057,1,reversed,49.0
+Healthy Stress,s_057,2,reversed,50.5
+Healthy Stress,s_057,3,reversed,48.75
+Healthy Stress,s_057,4,reversed,49.5
+Healthy Stress,s_058,6,reversed,52.0
+Healthy Stress,s_058,5,reversed,48.75
+Healthy Stress,s_058,1,reversed,50.0
+Healthy Stress,s_058,2,reversed,52.75
+Healthy Stress,s_058,3,reversed,46.0
+Healthy Stress,s_058,4,reversed,42.25
+Healthy Stress,s_059,6,reversed,58.25
+Healthy Stress,s_059,5,reversed,61.75
+Healthy Stress,s_059,1,reversed,44.25
+Healthy Stress,s_059,2,reversed,52.5
+Healthy Stress,s_059,3,reversed,52.75
+Healthy Stress,s_059,4,reversed,43.25
+Healthy Stress,s_060,6,reversed,59.25
+Healthy Stress,s_060,5,reversed,50.0
+Healthy Stress,s_060,1,reversed,57.0
+Healthy Stress,s_060,2,reversed,54.0
+Healthy Stress,s_060,3,reversed,56.0
+Healthy Stress,s_060,4,reversed,50.0
+Healthy Stress,s_061,6,reversed,49.75
+Healthy Stress,s_061,5,reversed,49.0
+Healthy Stress,s_061,1,reversed,49.0
+Healthy Stress,s_061,2,reversed,49.25
+Healthy Stress,s_061,3,reversed,45.5
+Healthy Stress,s_061,4,reversed,28.25
+Healthy Stress,s_063,6,reversed,48.5
+Healthy Stress,s_063,5,reversed,47.5
+Healthy Stress,s_063,1,reversed,49.0
+Healthy Stress,s_063,2,reversed,50.0
+Healthy Stress,s_063,3,reversed,50.0
+Healthy Stress,s_063,4,reversed,44.5
+Healthy Stress,s_064,6,reversed,50.0
+Healthy Stress,s_064,5,reversed,50.0
+Healthy Stress,s_064,1,reversed,53.5
+Healthy Stress,s_064,2,reversed,51.5
+Healthy Stress,s_064,3,reversed,49.25
+Healthy Stress,s_064,4,reversed,81.25
+Healthy Stress,s_065,6,reversed,41.5
+Healthy Stress,s_065,5,reversed,51.0
+Healthy Stress,s_065,1,reversed,53.75
+Healthy Stress,s_065,2,reversed,30.0
+Healthy Stress,s_065,3,reversed,51.5
+Healthy Stress,s_065,4,reversed,48.0
+Healthy Stress,s_066,6,reversed,47.75
+Healthy Stress,s_066,5,reversed,39.75
+Healthy Stress,s_066,1,reversed,22.75
+Healthy Stress,s_066,2,reversed,44.0
+Healthy Stress,s_066,3,reversed,32.0
+Healthy Stress,s_066,4,reversed,46.5
+Healthy Stress,s_067,6,reversed,50.0
+Healthy Stress,s_067,5,reversed,49.75
+Healthy Stress,s_067,1,reversed,50.0
+Healthy Stress,s_067,2,reversed,48.75
+Healthy Stress,s_067,3,reversed,50.5
+Healthy Stress,s_067,4,reversed,39.25
+Healthy Stress,s_068,6,reversed,28.5
+Healthy Stress,s_068,5,reversed,48.0
+Healthy Stress,s_068,1,reversed,43.25
+Healthy Stress,s_068,2,reversed,46.25
+Healthy Stress,s_068,3,reversed,42.0
+Healthy Stress,s_068,4,reversed,47.0
+Healthy Stress,s_069,6,reversed,55.5
+Healthy Stress,s_069,5,reversed,49.5
+Healthy Stress,s_069,1,reversed,59.5
+Healthy Stress,s_069,2,reversed,53.75
+Healthy Stress,s_069,3,reversed,54.0
+Healthy Stress,s_069,4,reversed,56.75
+Healthy Stress,s_070,6,reversed,71.5
+Healthy Stress,s_070,5,reversed,25.0
+Healthy Stress,s_070,1,reversed,49.25
+Healthy Stress,s_070,2,reversed,52.75
+Healthy Stress,s_070,3,reversed,56.5
+Healthy Stress,s_070,4,reversed,50.25
+Healthy Stress,s_071,6,reversed,27.5
+Healthy Stress,s_071,5,reversed,49.25
+Healthy Stress,s_071,1,reversed,49.5
+Healthy Stress,s_071,2,reversed,52.75
+Healthy Stress,s_071,3,reversed,49.5
+Healthy Stress,s_071,4,reversed,49.75
+Healthy Stress,s_073,6,reversed,53.5
+Healthy Stress,s_073,5,reversed,51.25
+Healthy Stress,s_073,1,reversed,53.75
+Healthy Stress,s_073,2,reversed,50.0
+Healthy Stress,s_073,3,reversed,48.75
+Healthy Stress,s_073,4,reversed,55.0
+Healthy Stress,s_074,6,reversed,48.5
+Healthy Stress,s_074,5,reversed,49.5
+Healthy Stress,s_074,1,reversed,55.0
+Healthy Stress,s_074,2,reversed,48.75
+Healthy Stress,s_074,3,reversed,50.75
+Healthy Stress,s_074,4,reversed,47.75
+Healthy Stress,s_075,6,reversed,29.0
+Healthy Stress,s_075,5,reversed,46.5
+Healthy Stress,s_075,1,reversed,38.25
+Healthy Stress,s_075,2,reversed,50.25
+Healthy Stress,s_075,3,reversed,43.75
+Healthy Stress,s_075,4,reversed,48.75
+Healthy Stress,s_076,6,reversed,42.75
+Healthy Stress,s_076,5,reversed,87.0
+Healthy Stress,s_076,1,reversed,44.0
+Healthy Stress,s_076,2,reversed,8.0
+Healthy Stress,s_076,3,reversed,20.75
+Healthy Stress,s_076,4,reversed,0.0
+Healthy Stress,s_077,6,reversed,50.25
+Healthy Stress,s_077,5,reversed,51.75
+Healthy Stress,s_077,1,reversed,49.0
+Healthy Stress,s_077,2,reversed,50.75
+Healthy Stress,s_077,3,reversed,47.75
+Healthy Stress,s_077,4,reversed,47.25
+Healthy Stress,s_078,6,reversed,56.75
+Healthy Stress,s_078,5,reversed,48.5
+Healthy Stress,s_078,1,reversed,47.5
+Healthy Stress,s_078,2,reversed,66.25
+Healthy Stress,s_078,3,reversed,44.0
+Healthy Stress,s_078,4,reversed,45.75
+Healthy Stress,s_079,6,reversed,26.75
+Healthy Stress,s_079,5,reversed,26.0
+Healthy Stress,s_079,1,reversed,23.75
+Healthy Stress,s_079,2,reversed,25.0
+Healthy Stress,s_079,3,reversed,24.75
+Healthy Stress,s_079,4,reversed,24.0
+Healthy Stress,s_080,6,reversed,50.0
+Healthy Stress,s_080,5,reversed,49.75
+Healthy Stress,s_080,1,reversed,48.75
+Healthy Stress,s_080,2,reversed,49.5
+Healthy Stress,s_080,3,reversed,50.5
+Healthy Stress,s_080,4,reversed,41.25
+Healthy Stress,s_081,6,reversed,47.75
+Healthy Stress,s_081,5,reversed,51.25
+Healthy Stress,s_081,1,reversed,50.5
+Healthy Stress,s_081,2,reversed,51.5
+Healthy Stress,s_081,3,reversed,51.0
+Healthy Stress,s_081,4,reversed,56.5
+Healthy Stress,s_082,6,reversed,49.75
+Healthy Stress,s_082,5,reversed,45.0
+Healthy Stress,s_082,1,reversed,48.25
+Healthy Stress,s_082,2,reversed,51.25
+Healthy Stress,s_082,3,reversed,50.75
+Healthy Stress,s_082,4,reversed,32.75
+Healthy Stress,s_083,6,reversed,50.0
+Healthy Stress,s_083,5,reversed,36.5
+Healthy Stress,s_083,1,reversed,49.75
+Healthy Stress,s_083,2,reversed,51.25
+Healthy Stress,s_083,3,reversed,45.5
+Healthy Stress,s_083,4,reversed,47.0
+Healthy Stress,s_085,6,reversed,66.25
+Healthy Stress,s_085,5,reversed,68.0
+Healthy Stress,s_085,1,reversed,51.25
+Healthy Stress,s_085,2,reversed,55.5
+Healthy Stress,s_085,3,reversed,51.5
+Healthy Stress,s_085,4,reversed,55.0
+Healthy Stress,s_086,6,reversed,49.0
+Healthy Stress,s_086,5,reversed,49.25
+Healthy Stress,s_086,1,reversed,52.25
+Healthy Stress,s_086,2,reversed,49.25
+Healthy Stress,s_086,3,reversed,51.25
+Healthy Stress,s_086,4,reversed,50.0
+Healthy Stress,s_087,6,reversed,50.25
+Healthy Stress,s_087,5,reversed,48.5
+Healthy Stress,s_087,1,reversed,48.25
+Healthy Stress,s_087,2,reversed,47.0
+Healthy Stress,s_087,3,reversed,50.75
+Healthy Stress,s_087,4,reversed,49.25
+Healthy Stress,s_088,6,reversed,25.25
+Healthy Stress,s_088,5,reversed,50.0
+Healthy Stress,s_088,1,reversed,50.0
+Healthy Stress,s_088,2,reversed,50.0
+Healthy Stress,s_088,3,reversed,37.5
+Healthy Stress,s_088,4,reversed,37.75
+Healthy Stress,s_089,6,reversed,50.75
+Healthy Stress,s_089,5,reversed,50.25
+Healthy Stress,s_089,1,reversed,45.25
+Healthy Stress,s_089,2,reversed,51.0
+Healthy Stress,s_089,3,reversed,49.25
+Healthy Stress,s_089,4,reversed,50.0
+Healthy Stress,s_090,6,reversed,75.25
+Healthy Stress,s_090,5,reversed,100.0
+Healthy Stress,s_090,1,reversed,58.75
+Healthy Stress,s_090,2,reversed,50.75
+Healthy Stress,s_090,3,reversed,62.0
+Healthy Stress,s_090,4,reversed,58.75
+Healthy Stress,s_091,6,reversed,50.0
+Healthy Stress,s_091,5,reversed,50.0
+Healthy Stress,s_091,1,reversed,71.0
+Healthy Stress,s_091,2,reversed,56.0
+Healthy Stress,s_091,3,reversed,60.75
+Healthy Stress,s_091,4,reversed,61.75
+Healthy Stress,s_092,6,reversed,42.25
+Healthy Stress,s_092,5,reversed,38.5
+Healthy Stress,s_092,1,reversed,58.0
+Healthy Stress,s_092,2,reversed,49.25
+Healthy Stress,s_092,3,reversed,36.5
+Healthy Stress,s_092,4,reversed,48.75
+Healthy Stress,s_093,6,reversed,49.75
+Healthy Stress,s_093,5,reversed,50.0
+Healthy Stress,s_093,1,reversed,50.0
+Healthy Stress,s_093,2,reversed,62.5
+Healthy Stress,s_093,3,reversed,50.0
+Healthy Stress,s_093,4,reversed,50.0
+Healthy Stress,s_095,6,reversed,49.25
+Healthy Stress,s_095,5,reversed,50.25
+Healthy Stress,s_095,1,reversed,45.0
+Healthy Stress,s_095,2,reversed,48.0
+Healthy Stress,s_095,3,reversed,48.75
+Healthy Stress,s_095,4,reversed,46.5
+Healthy Stress,s_098,6,reversed,50.5
+Healthy Stress,s_098,5,reversed,52.75
+Healthy Stress,s_098,1,reversed,45.0
+Healthy Stress,s_098,2,reversed,50.0
+Healthy Stress,s_098,3,reversed,50.0
+Healthy Stress,s_098,4,reversed,53.5

@@ -1,0 +1,51 @@
+block,pair_type,group,choice_a
+1,non-reversed,Fibro,0.690050107372942
+1,non-reversed,Healthy,0.73828125
+1,non-reversed,Healthy Stress,0.6722797927461139
+1,reversed,Fibro,0.6340057636887608
+1,reversed,Healthy,0.7182539682539683
+1,reversed,Healthy Stress,0.6876640419947506
+2,non-reversed,Fibro,0.7155963302752294
+2,non-reversed,Healthy,0.7619047619047619
+2,non-reversed,Healthy Stress,0.6707317073170732
+2,reversed,Fibro,0.7002497918401333
+2,reversed,Healthy,0.7863247863247863
+2,reversed,Healthy Stress,0.6856368563685636
+3,non-reversed,Fibro,0.723563696919234
+3,non-reversed,Healthy,0.811965811965812
+3,non-reversed,Healthy Stress,0.8062330623306233
+3,reversed,Fibro,0.6839032527105922
+3,reversed,Healthy,0.8008658008658008
+3,reversed,Healthy Stress,0.7981029810298103
+4,non-reversed,Fibro,0.6127167630057804
+4,non-reversed,Healthy,0.8117154811715481
+4,non-reversed,Healthy Stress,0.7330623306233063
+4,reversed,Fibro,0.571078431372549
+4,reversed,Healthy,0.4495798319327731
+4,reversed,Healthy Stress,0.6355013550135501
+5,non-reversed,Fibro,0.6611747851002865
+5,non-reversed,Healthy,0.775
+5,non-reversed,Healthy Stress,0.6734417344173442
+5,reversed,Fibro,0.5581896551724138
+5,reversed,Healthy,0.47017543859649125
+5,reversed,Healthy Stress,0.46070460704607047
+6,non-reversed,Fibro,0.6733668341708543
+6,non-reversed,Healthy,0.7578125
+6,non-reversed,Healthy Stress,0.6869918699186992
+6,reversed,Fibro,0.4848265895953757
+6,reversed,Healthy,0.3373015873015873
+6,reversed,Healthy Stress,0.44986449864498645
+7,non-reversed,Fibro,0.5907429963459196
+7,non-reversed,Healthy,0.7014925373134329
+7,non-reversed,Healthy Stress,0.6759656652360515
+7,reversed,Fibro,0.44844124700239807
+7,reversed,Healthy,0.3308270676691729
+7,reversed,Healthy Stress,0.42411642411642414
+8,non-reversed,Fibro,0.5749185667752443
+8,non-reversed,Healthy,0.6486486486486487
+8,reversed,Fibro,0.43506493506493504
+8,reversed,Healthy,0.4868421052631579
+9,non-reversed,Fibro,0.5448113207547169
+9,non-reversed,Healthy,0.7037037037037037
+9,reversed,Fibro,0.44522144522144524
+9,reversed,Healthy,0.33962264150943394

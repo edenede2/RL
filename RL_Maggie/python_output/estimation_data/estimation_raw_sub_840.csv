@@ -1,0 +1,11 @@
+participant,image_file,estimation_response,block
+sub_840,exp1.png,77.0,6
+sub_840,exp2.png,100.0,6
+sub_840,exp3.png,15.0,6
+sub_840,exp4.png,88.0,7
+sub_840,exp1.png,100.0,12
+sub_840,exp3.png,12.0,13
+sub_840,exp4.png,96.0,13
+sub_840,exp1.png,100.0,18
+sub_840,exp2.png,2.0,19
+sub_840,exp4.png,73.0,19
