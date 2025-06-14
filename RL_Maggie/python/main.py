@@ -1,9 +1,9 @@
 import importlib
 
-importlib.import_module('RL_Maggie.python.00_setup')
+importlib.import_module('00_setup')
 RUN_COPY = False
 if RUN_COPY:
-    importlib.import_module('RL_Maggie.python.01_copy_raw_files')
+    importlib.import_module('01_copy_raw_files')
 
 for mod in [
     '02_trial_etl_fibro',
@@ -13,4 +13,4 @@ for mod in [
     '06_estimation_etl',
     '07_estimation_analysis',
     '08_questionnaire_analysis']:
-    importlib.import_module(f'RL_Maggie.python.{mod}')
+    importlib.import_module(f'{mod}')

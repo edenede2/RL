@@ -2,10 +2,10 @@ import pandas as pd
 from pathlib import Path
 import importlib
 
-setup = importlib.import_module('RL_Maggie.python.00_setup')
+setup = importlib.import_module('00_setup')
 LOCAL_DATA_DIR = setup.LOCAL_DATA_DIR
 STRESS_DATA_DIR = setup.STRESS_DATA_DIR
-merge_mod = importlib.import_module('RL_Maggie.python.04_trial_merge_clean')
+merge_mod = importlib.import_module('04_trial_merge_clean')
 full_trial_data = merge_mod.full_trial_data
 all_non_learners = merge_mod.all_non_learners
 

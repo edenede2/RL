@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.cluster import KMeans
 import importlib
 
-merge_mod = importlib.import_module('RL_Maggie.python.04_trial_merge_clean')
+merge_mod = importlib.import_module('04_trial_merge_clean')
 full_trial_data_learners = merge_mod.full_trial_data_learners
 
 acc_profile = (full_trial_data_learners[full_trial_data_learners['block'].between(1, 6)]

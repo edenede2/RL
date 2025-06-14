@@ -1,8 +1,8 @@
 import pandas as pd
 import importlib
 
-fibro_mod = importlib.import_module('RL_Maggie.python.02_trial_etl_fibro')
-stress_mod = importlib.import_module('RL_Maggie.python.03_trial_etl_stress')
+fibro_mod = importlib.import_module('02_trial_etl_fibro')
+stress_mod = importlib.import_module('03_trial_etl_stress')
 
 result_healthy_fibro = fibro_mod.get_trial_data_healthy_fibro()
 result_healthy_stress = stress_mod.get_trial_data_healthy_stress()

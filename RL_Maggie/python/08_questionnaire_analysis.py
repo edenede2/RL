@@ -3,9 +3,9 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D  # noqa: F401
 import importlib
 
-setup = importlib.import_module('RL_Maggie.python.00_setup')
+setup = importlib.import_module('00_setup')
 QUESTIONNAIRE_CSV = setup.QUESTIONNAIRE_CSV
-merge_mod = importlib.import_module('RL_Maggie.python.04_trial_merge_clean')
+merge_mod = importlib.import_module('04_trial_merge_clean')
 full_trial_data = merge_mod.full_trial_data
 
 fibro_questionnaire_df = pd.read_csv(QUESTIONNAIRE_CSV)

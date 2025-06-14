@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from statsmodels.stats.anova import AnovaRM
 import importlib
 
-etl_mod = importlib.import_module('RL_Maggie.python.06_estimation_etl')
+etl_mod = importlib.import_module('06_estimation_etl')
 full_estimation_data = etl_mod.full_estimation_data
 full_estimation_data_clean = etl_mod.full_estimation_data_clean
 

@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from statsmodels.stats.anova import AnovaRM
 import importlib
 
-merge_mod = importlib.import_module('RL_Maggie.python.04_trial_merge_clean')
+merge_mod = importlib.import_module('04_trial_merge_clean')
 full_trial_data_learners = merge_mod.full_trial_data_learners
 
 anova_data = (full_trial_data_learners

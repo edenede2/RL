@@ -3,7 +3,7 @@ from pathlib import Path
 from typing import List, Dict
 from importlib import import_module
 
-setup = import_module('RL_Maggie.python.00_setup')
+setup = import_module('00_setup')
 LOCAL_DATA_DIR = setup.LOCAL_DATA_DIR
 
 
