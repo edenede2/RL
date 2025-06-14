@@ -114,17 +114,17 @@ def create_estimation_data(data_dir: Path = STRESS_DATA_DIR) -> pd.DataFrame:
     return pd.concat(df_list, ignore_index=True) if df_list else pd.DataFrame()
 
 
+# Check if required columns exist in the full_trial_data
+required_columns = ['participant', 'block', 'pair_type', 'high_prob_image_file', 'low_prob_image_file']
+missing_columns = [col for col in required_columns if col not in full_trial_data.columns]
+
 # Initialize default empty dataframes
 full_estimation_data = pd.DataFrame(columns=['participant', 'block', 'estimation_response', 'pair_type', 'is_high_probe', 'group'])
 full_estimation_data_clean = pd.DataFrame(columns=['participant', 'block', 'estimation_response', 'pair_type', 'is_high_probe', 'group'])
 
 try:
-    # Get estimation data for fibro/healthy participants
+    # Get estimation data
     estimation_data_df_fibro_healthy = get_estimation_data_from_all_csvs()
-
-    # Check if required columns exist in the full_trial_data
-    required_columns = ['participant', 'block', 'pair_type', 'high_prob_image_file', 'low_prob_image_file']
-    missing_columns = [col for col in required_columns if col not in full_trial_data.columns]
     
     if missing_columns:
         print(f"Warning: full_trial_data is missing columns: {missing_columns}")
@@ -162,66 +162,41 @@ try:
             else:
                 estimation_with_choices_fibro_healthy = estimation_with_choices_high.copy()
                 estimation_with_choices_fibro_healthy['pair_type_low'] = None
+        except Exception as e:
+            print(f"Error during merge operations: {e}")
+            # Create minimal datasets to avoid errors
+            full_estimation_data = pd.DataFrame(columns=['participant', 'block', 'estimation_response', 'pair_type', 'is_high_probe', 'group'])
+            full_estimation_data_clean = full_estimation_data.copy()
+            return
 
-            # Process estimation data further
-            if 'pair_type_high' in estimation_with_choices_fibro_healthy.columns and 'pair_type_low' in estimation_with_choices_fibro_healthy.columns:
-                estimation_with_choices_fibro_healthy['pair_type'] = estimation_with_choices_fibro_healthy['pair_type_high'].combine_first(estimation_with_choices_fibro_healthy['pair_type_low'])
-                
-                if 'high_prob_image_file' in estimation_with_choices_fibro_healthy.columns:
-                    estimation_with_choices_fibro_healthy['is_high_probe'] = estimation_with_choices_fibro_healthy['high_prob_image_file'].isna()
-                else:
-                    estimation_with_choices_fibro_healthy['is_high_probe'] = False
-                
-                estimation_with_choices_fibro_healthy['estimation_response'] = pd.to_numeric(estimation_with_choices_fibro_healthy['estimation_response'])
-                
-                # Add group information
-                if 'group' in full_trial_data.columns:
-                    group_info = full_trial_data[['participant', 'group']].drop_duplicates()
-                    estimation_with_choices_fibro_healthy = estimation_with_choices_fibro_healthy.merge(
-                        group_info,
-                        on='participant',
-                        how='left'
-                    )
-                else:
-                    estimation_with_choices_fibro_healthy['group'] = 'Unknown'
-                
-                # Get stress estimation data
-                stress_estimation_df = create_estimation_data()
-                
-                if not stress_estimation_df.empty and 'choice' in stress_estimation_df.columns:
-                    estimation_with_choices_stress = stress_estimation_df.assign(
-                        pair_type=lambda d: d['choice'].isin(['choice_1', 'choice_2']).map({True: 'non-reversed', False: 'reversed'}),
-                        is_high_probe=lambda d: d['choice'].isin(['choice_1', 'choice_3']),
-                        estimation_response=lambda d: pd.to_numeric(d['prob_estimation']),
-                        group='Healthy Stress'
-                    )[['participant', 'block', 'estimation_response', 'pair_type', 'is_high_probe', 'group']]
-                    
-                    # Combine datasets
-                    full_estimation_data = pd.concat([
-                        estimation_with_choices_fibro_healthy[['participant', 'block', 'estimation_response', 'pair_type', 'is_high_probe', 'group']],
-                        estimation_with_choices_stress
-                    ], ignore_index=True)
-                    
-                    # Clean the data
-                    participant_variability = full_estimation_data.groupby('participant')['estimation_response'].std().reset_index(name='sd_estimation')
-                    low_var_participants = participant_variability[participant_variability['sd_estimation'] < 1]['participant'].tolist()
-                    full_estimation_data_clean = full_estimation_data[~full_estimation_data['participant'].isin(low_var_participants + all_non_learners)]
-                else:
-                    print("Warning: No valid stress estimation data")
-                    full_estimation_data = estimation_with_choices_fibro_healthy[['participant', 'block', 'estimation_response', 'pair_type', 'is_high_probe', 'group']]
-                    
-                    # Clean the data
-                    participant_variability = full_estimation_data.groupby('participant')['estimation_response'].std().reset_index(name='sd_estimation')
-                    low_var_participants = participant_variability[participant_variability['sd_estimation'] < 1]['participant'].tolist()
-                    full_estimation_data_clean = full_estimation_data[~full_estimation_data['participant'].isin(low_var_participants + all_non_learners)]
-            else:
-                print("Warning: Missing pair_type columns in merged data")
-        else:
-            print("Warning: No valid estimation data for fibro/healthy participants")
-            
-except Exception as e:
-    print(f"Error in estimation data processing: {e}")
-    
-# Print summary
-print(f"Full estimation data: {len(full_estimation_data)} rows")
-print(f"Clean estimation data: {len(full_estimation_data_clean)} rows")
+# Only proceed if estimation_with_choices_fibro_healthy exists and has the required columns
+if 'estimation_with_choices_fibro_healthy' in locals() and 'pair_type_high' in estimation_with_choices_fibro_healthy.columns and 'pair_type_low' in estimation_with_choices_fibro_healthy.columns:
+    estimation_with_choices_fibro_healthy['pair_type'] = estimation_with_choices_fibro_healthy['pair_type_high'].combine_first(estimation_with_choices_fibro_healthy['pair_type_low'])
+
+estimation_with_choices_fibro_healthy['is_high_probe'] = estimation_with_choices_fibro_healthy['high_prob_image_file'].isna()
+
+estimation_with_choices_fibro_healthy['estimation_response'] = pd.to_numeric(estimation_with_choices_fibro_healthy['estimation_response'])
+
+estimation_with_choices_fibro_healthy = estimation_with_choices_fibro_healthy.merge(
+    full_trial_data[['participant', 'group']].drop_duplicates(),
+    on='participant'
+)
+
+stress_estimation_df = create_estimation_data()
+
+estimation_with_choices_stress = stress_estimation_df.assign(
+    pair_type=lambda d: d['choice'].isin(['choice_1', 'choice_2']).map({True: 'non-reversed', False: 'reversed'}),
+    is_high_probe=lambda d: d['choice'].isin(['choice_1', 'choice_3']),
+    estimation_response=lambda d: pd.to_numeric(d['prob_estimation']),
+    group='Healthy Stress'
+)[['participant', 'block', 'estimation_response', 'pair_type', 'is_high_probe', 'group']]
+
+full_estimation_data = pd.concat([
+    estimation_with_choices_fibro_healthy[['participant', 'block', 'estimation_response', 'pair_type', 'is_high_probe', 'group']],
+    estimation_with_choices_stress
+], ignore_index=True)
+
+participant_variability = full_estimation_data.groupby('participant')['estimation_response'].std().reset_index(name='sd_estimation')
+low_var_participants = participant_variability[participant_variability['sd_estimation'] < 1]['participant'].tolist()
+
+full_estimation_data_clean = full_estimation_data[~full_estimation_data['participant'].isin(low_var_participants + all_non_learners)]
