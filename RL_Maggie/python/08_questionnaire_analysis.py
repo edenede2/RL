@@ -9,9 +9,12 @@ merge_mod = importlib.import_module('RL_Maggie.python.04_trial_merge_clean')
 full_trial_data = merge_mod.full_trial_data
 
 fibro_questionnaire_df = pd.read_csv(QUESTIONNAIRE_CSV)
-rl_scores_df = (full_trial_data[full_trial_data['block'] == 6]
-                [full_trial_data['correct'] == 1]
-                .groupby('participant').size().reset_index(name='rl_score'))
+rl_scores_df = (
+    full_trial_data[(full_trial_data['block'] == 6) & (full_trial_data['correct'] == 1)]
+    .groupby('participant')
+    .size()
+    .reset_index(name='rl_score')
+)
 
 fibro_merged = fibro_questionnaire_df.merge(rl_scores_df, on='participant', how='left')
 
