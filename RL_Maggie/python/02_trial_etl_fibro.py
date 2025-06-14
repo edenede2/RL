@@ -4,7 +4,7 @@ from typing import List, Dict
 from importlib import import_module
 
 # Define the data directory path
-LOCAL_DATA_DIR = Path("./data")  # Adjust this path as needed
+LOCAL_DATA_DIR = Path("./Data")  # Adjust this path as needed
 
 def get_trial_data_healthy_fibro(data_dir: Path = LOCAL_DATA_DIR) -> Dict[str, pd.DataFrame]:
     files = list(data_dir.glob('sub_*.csv'))
@@ -23,7 +23,7 @@ def get_trial_data_healthy_fibro(data_dir: Path = LOCAL_DATA_DIR) -> Dict[str, p
 
         sub_df = sub_df[['trial_num', 'participant', 'pair_type', 'choice_a', 'reward',
                          'correct', 'high_prob_image_file', 'low_prob_image_file']].copy()
-        sub_df['block'] = (sub_df.index // 20) + 1
+        sub_df['block'] = (sub_df.index // 20)
 
         # Check if this participant has 7 blocks
         max_blocks = sub_df.groupby('participant')['block'].max()
@@ -31,7 +31,7 @@ def get_trial_data_healthy_fibro(data_dir: Path = LOCAL_DATA_DIR) -> Dict[str, p
         if participants_with_max_7:
             participants_with_7.extend(participants_with_max_7)
 
-        if sub_df['block'].max() == 7:
+        if sub_df['block'].max() == 8:
             sub_df = sub_df[sub_df['block'] != 1]
             sub_df['block'] -= 1
             sub_df['trial_num'] -= 20
