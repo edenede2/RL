@@ -1,5 +1,21 @@
 ## main.R ----------------------------------------------------------------
 ## Run the entire analysis pipeline in order
+
+# Check if required packages are available
+missing_packages <- c()
+for (pkg in c("dplyr", "stringr", "tidyr", "emmeans", "here")) {
+  if (!requireNamespace(pkg, quietly = TRUE)) {
+    missing_packages <- c(missing_packages, pkg)
+  }
+}
+
+if (length(missing_packages) > 0) {
+  message("WARNING: The following required packages are missing: ", paste(missing_packages, collapse=", "))
+  message("Please run the install_packages.R script first:")
+  message("Rscript RL_Maggie/Code/install_packages.R")
+  message("\nContinuing with available packages...")
+}
+
 source("RL_Maggie/Code/00_setup.R")
 
 ## Optional – set to TRUE if you need fresh copies from the shared drive

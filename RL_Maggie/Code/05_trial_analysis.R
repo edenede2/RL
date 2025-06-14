@@ -18,13 +18,39 @@ trial_data_summary_df_united <- full_trial_data_learners %>%
 blocks <- unique(trial_data_summary_df_united$block)
 emmeans_results_by_block <- vector("list", length(blocks))
 
-for (b in blocks) {
-  block_data <- filter(trial_data_summary_df_united, block == b)
-  if (n_distinct(block_data$participant_type) < 2) next
-  
-  model <- aov(choice_a_sum ~ participant_type, data = block_data)
-  emms  <- pairs(emmeans(model, ~ participant_type), adjust = "tukey")
-  emmeans_results_by_block[[paste0("Block_", b)]] <- summary(emms)
+# Check if emmeans package is available
+if ("emmeans" %in% installed.packages()[,"Package"]) {
+  for (b in blocks) {
+    block_data <- filter(trial_data_summary_df_united, block == b)
+    if (n_distinct(block_data$participant_type) < 2) next
+    
+    model <- aov(choice_a_sum ~ participant_type, data = block_data)
+    tryCatch({
+      emms  <- pairs(emmeans(model, ~ participant_type), adjust = "tukey")
+      emmeans_results_by_block[[paste0("Block_", b)]] <- summary(emms)
+    }, error = function(e) {
+      message("Warning: Could not perform emmeans analysis for block ", b, ": ", e$message)
+      # Try a basic TukeyHSD test as fallback
+      tryCatch({
+        emmeans_results_by_block[[paste0("Block_", b)]] <- TukeyHSD(model)
+      }, error = function(e2) {
+        message("Fallback TukeyHSD also failed: ", e2$message)
+      })
+    })
+  }
+} else {
+  message("Warning: emmeans package not available. Using TukeyHSD for post-hoc tests instead.")
+  for (b in blocks) {
+    block_data <- filter(trial_data_summary_df_united, block == b)
+    if (n_distinct(block_data$participant_type) < 2) next
+    
+    model <- aov(choice_a_sum ~ participant_type, data = block_data)
+    tryCatch({
+      emmeans_results_by_block[[paste0("Block_", b)]] <- TukeyHSD(model)
+    }, error = function(e) {
+      message("Warning: Could not perform TukeyHSD for block ", b, ": ", e$message)
+    })
+  }
 }
 
 ## Plot ------------------------------------------------------------------
